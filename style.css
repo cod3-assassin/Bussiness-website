@@ -1,0 +1,373 @@
+/* Add these styles to include FontAwesome icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+
+#main {
+    background: linear-gradient(380deg, #648abf 0%, #00D2FF 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+#nav {
+    display: flex;
+    top: 0;
+    margin-left: 50%;
+    justify-content: space-evenly;
+}
+
+#nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.home-page {
+    font-weight: 100;
+    font-family: 'Sans-serif', monospace;
+    color: whitesmoke;
+}
+
+.home-page h1 {
+    font-size: 60px;
+    font-family: 'Sans-serif';
+}
+
+#img-1 {
+    position: relative;
+    top: 60px;
+    right: 80px;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-3,
+#img-2 {
+    height: 90px;
+    width: 90px;
+}
+
+button {
+    height: 40px;
+    width: 180px;
+    font-weight: 500;
+    border-radius: 40px;
+    background-color: white;
+    font-size: x-small;
+    color: blue;
+    font-family: 'Sans-serif';
+}
+
+#imges-and-more {
+    display: grid;
+    justify-items: end;
+    margin-right: 120px;
+    margin-top: 40px;
+
+}
+
+.text-and-image {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#img-3 {
+    position: absolute;
+    right: -75px;
+
+}
+
+#want-to-know {
+    display: grid;
+
+    justify-content: center;
+    flex-direction: column;
+
+    p {
+        margin-left: 40px;
+        color: #20B2AA;
+        font-weight: 600;
+        font-size: 15px;
+        font-family: monospace;
+    }
+
+    h1 {
+        font-family: monospace;
+        margin-left: -40px;
+    }
+}
+
+#chart-card {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#chart-1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 280px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+
+    p {
+
+        font-family: monospace;
+        color: orange;
+        font-weight: bold;
+    }
+
+
+
+}
+
+#chart-2 {
+    height: 500px;
+    width: 350px;
+    margin-left: -30px;
+
+
+}
+
+#chart-2-1 {
+    height: 230px;
+    width: 350px;
+    margin-bottom: 10px;
+    box-shadow: black 2px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    /* Center items horizontally */
+    justify-content: space-around;
+    /* Align items at the start (top) */
+    padding-top: 20px;
+    border-radius: 10px;
+
+
+    #innovance {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    p {
+
+        font-family: monospace;
+        color: #20B2AA;
+        font-weight: bold;
+        margin: 0 10px;
+    }
+}
+
+#more-details {
+    height: 50px;
+    width: 300px;
+    max-width: 340px;
+    /* Make it responsive */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* Center items vertically */
+    justify-content: space-between;
+    /* Space out the items evenly */
+    box-shadow: 10px 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 0 10px;
+
+}
+
+#name-number {
+    display: flex;
+    flex-direction: column;
+}
+
+#icon {
+    font-size: 1em;
+    /* Increase the size of the icon if necessary */
+    cursor: pointer;
+    /* Make it look clickable */
+}
+
+
+
+
+#chart-2-2 {
+    height: 220px;
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items horizontally */
+    text-align: center;
+    /* Center text */
+    padding: 10px;
+    /* Add some padding to ensure content doesn't touch the edges */
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#chart-2-2 p {
+    font-family: monospace;
+    margin: 0;
+    /* Remove default margin */
+}
+
+#chart-img {
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    bottom: 15px;
+
+}
+
+
+#chart-3 {
+    height: 500px;
+    width: 380px;
+    border-radius: 10px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    b {
+        color: orange;
+        margin-left: 20px;
+    }
+
+    h1 {
+        margin-left: 20px;
+        font-size: xx-large;
+
+    }
+
+    button {
+        margin-left: 20px;
+        background-color: #20B2AA;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: bold;
+    }
+
+    p {
+        margin-left: 20px;
+        font-size: medium;
+        font-weight: bold;
+    }
+}
+
+#progress-bar {
+    height: 200px;
+    width: 200px;
+}
+
+#quote-card {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: monospace;
+}
+
+#detail-div {
+    margin-top: 80px;
+    height: 500px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    b {
+        color: #20B2AA;
+        margin-left: 20px;
+    }
+
+    h1 {
+        margin-left: 20px;
+        font-size: xx-large;
+
+    }
+
+    button {
+        margin-left: 20px;
+        background-color: #20B2AA;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: bold;
+    }
+
+    p {
+        margin-left: 20px;
+        font-size: medium;
+        font-weight: bold;
+    }
+}
+
+#card-div {
+    height: 600px;
+    width: 700px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+#heading-of-div {
+    height: 120px;
+    width: 700px;
+    background-color: #648abf;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+
+    h1 {
+        margin-bottom: -10px;
+    }
+
+}
+
+#card-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+
+    div {
+        height: 100px;
+        width: 100px;
+
+        p {
+            font-size: x-small;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
